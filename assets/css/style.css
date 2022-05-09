@@ -233,3 +233,40 @@ body{
     text-align: center;
 }
 /** End Airtime Section */
+
+/** Link Section*/
+.section-links{
+    width: 100%;
+    border: 1px #bebebe solid;
+    height: max-content;
+}
+
+.link-box{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.link-item{
+    display: flex;
+    flex-direction: column;
+    color: #4f4f4f;
+    align-items: center;
+}
+
+.link-item .link-icon{
+    font-size: 1.2rem;
+}
+
+.link-item.active .link-icon{
+    color: #1f1e84;
+}
+
+.link-item p{
+    font-size: .8rem;
+    color: #1f1e84;
+}
+
+
+
+
+/**Link Section  */
