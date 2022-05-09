@@ -195,11 +195,17 @@ body{
     flex-direction: column;
     height: max-content;
 }
-.airtime-item:nth-child(odd){
-    background: #1f1e84;   
+.airtime-item:nth-child(1){
+    background: #efbd3f;   
 }
-.airtime-item:nth-child(even){
-    background: #4f4f4f;   
+.airtime-item:nth-child(2){
+    background: #da3a26;   
+}
+.airtime-item:nth-child(3){
+    background: #56a847;   
+}
+.airtime-item:nth-child(4){
+    background: #2e6c55;   
 }
 .airtime-icon{
     padding-top: .5rem;
