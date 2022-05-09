@@ -5,29 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wynk</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+   
 
 </head>
 <body>
     <!--- Hero Starts-->
     <header class="hero">
-        <div class="main-content">
-            <div class="background-one">
-                <img src="assets/images/Wynk-02-new.png" alt="">
-                <p>Rides, Payment. Lifestyle.</p>
+        <div class="main-content swiper">
+            <div class="swiper-wrapper">
+                <div class="background-one swiper-slide">
+                    <img src="assets/images/Wynk-02-new.png" alt="">
+                    <p>Rides, Payment. Lifestyle.</p>
+                    <div class="butn-group">
+                        <a href="login.html" class="btn btn-white">Login</a>
+                        <a href="login.html" class="btn btn-white-transparent">Register</a>
+                    </div>
+                </div>
+                <div class="background-two swiper-slide">
+                    <img src="assets/images/Wynk-02-1.png" alt="">
+                    <p>Rides, Payment. Lifestyle.</p>
+                    <div class="butn-group">
+                        <a href="login.html" class="btn btn-blue">Login</a>
+                        <a href="login.html" class="btn btn-blue-transparent">Register</a>
+                    </div>
+                </div>
             </div>
-            <!--div class="background-two">
-                <img src="assets/images/Wynk-02-1.png" alt="">
-                <p>Rides, Payment. Lifestyle.</p>
-            </div-->
-        <div>
+        </div>
+       
     </header>
     <!--- Header Ends-->
    
-
+  
     <!-- End Links-->
 
     <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+       
+       const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            autoplay: {
+                delay: 5000,
+            },
+        });
+    </script>
 </body>
 </html>

@@ -12,18 +12,29 @@ body{
     flex-direction: column;
     width: 100%;
     max-height: 100vh;
-    background-color: #fafafa;
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
+   
 }
 
 /** General CSS */
-
+a{
+    text-decoration: none;
+}
 /** End General CSS */
+.hero{
+    margin-bottom: 0;
+}
+
+.main-content .background-one,.main-content .background-two{
+    height: 100vh;
+}
 
 .main-content .background-one{
     background: #211d8a;
-    height: 100vh;
+}
+
+.main-content .background-two{
+    background: #fafafa;
 }
 
 .background-one, .background-two{
@@ -33,8 +44,10 @@ body{
 
 .background-one img, .background-two img{
     padding: 5rem;
-    margin-top: 20vh;
+    margin-top: 35vh;
     align-self: center;
+    height: 300px;
+    width: fit-content;
 }
 
 .background-one p, .background-two p{
@@ -42,10 +55,59 @@ body{
     align-self: center;
 }
 
+.butn-group{
+    display: flex;
+}
+
 .background-one p{
     color: #fafafa;
 }
 
+.background-two p{
+    color: #211d8a;
+}
+
+.butn-group{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25vh;    
+}
+
+.btn{
+    padding: 1rem 3rem;   
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    font-weight: 400;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn-white{
+    background: #fafafa;  
+    color: #211d8a;  
+}
+
+.btn-white-transparent{
+    background: transparent;
+    border: .5px #fafafa solid;
+    color: #fafafa;
+}
+
+.btn-blue{
+    background: #211d8a;  
+    color: #fafafa;  
+}
+
+.btn-blue-transparent{
+    background: transparent;
+    border: 1px #211d8a solid;
+    color: #211d8a;
+}
+
+.swiper {
+  width: 100%;
+  height: 100vh;
+}
 
 /**Link Section  */
 
