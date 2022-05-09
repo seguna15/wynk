@@ -237,7 +237,7 @@ body{
 /** Link Section*/
 .section-links{
     position: fixed;
-    top: 80vh;
+    bottom: 0;
     background: #fafafa;
     width: 100%;
     border: 1px #bebebe solid;
