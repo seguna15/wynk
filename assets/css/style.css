@@ -175,3 +175,55 @@ body{
     text-align: center;
 }
 /** End Discovery Section */
+
+
+/** Start Airtime Section */
+.airtime{
+    padding: 1rem .5rem ;
+}
+
+.airtime-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: .5rem;
+}
+
+.airtime-item{
+    border: #d8d8d8 1px solid;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+}
+.airtime-item:nth-child(odd){
+    background: #1f1e84;   
+}
+.airtime-item:nth-child(even){
+    background: #4f4f4f;   
+}
+.airtime-icon{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    align-self: center;
+    width: 100%;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+}
+.airtime-icon img{
+   width: 50px;
+   height: 50px;
+}
+
+.airtime-item .airtime-footer{
+    width: 100%;
+    align-self: center;
+    color: #fafafa;
+    overflow: hidden;
+}
+
+.airtime-item .airtime-footer p{
+    font-size: .8rem;
+    text-align: center;
+}
+/** End Airtime Section */
