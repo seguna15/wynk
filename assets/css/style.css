@@ -44,7 +44,7 @@ a{
 
 .background-one img, .background-two img{
     padding: 5rem;
-    margin-top: 35vh;
+    margin-top: 15vh;
     align-self: center;
     height: 300px;
     width: fit-content;
@@ -70,7 +70,7 @@ a{
 .butn-group{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 25vh;    
+    margin-top: 20vh;    
 }
 
 .btn{
