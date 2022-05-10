@@ -79,6 +79,8 @@ body{
 /** Start Menu Section */
 .menu{
     padding: 1rem .5rem ;
+    width: 100%;
+    overflow: hidden;
 }
 
 .menu-box{
@@ -184,6 +186,8 @@ body{
 /** Start Airtime Section */
 .airtime{
     padding: 1rem .5rem ;
+    width: 100%;
+    overflow: hidden;
 }
 
 .airtime-box{
@@ -200,18 +204,7 @@ body{
     height: max-content;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.airtime-item:nth-child(1){
-    background: #efbd3f;   
-}
-.airtime-item:nth-child(2){
-    background: #da3a26;   
-}
-.airtime-item:nth-child(3){
-    background: #56a847;   
-}
-.airtime-item:nth-child(4){
-    background: #2e6c55;   
-}
+
 .airtime-icon{
     padding-top: .5rem;
     padding-bottom: .5rem;

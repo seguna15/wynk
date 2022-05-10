@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wynk</title>
-    <link rel="stylesheet" href="assets/css/dashboard.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/dashboard.css">
 
 </head>
 <body>
@@ -30,63 +31,66 @@
     <!--- Menu Starts-->
     <section class="menu">
         <h2 class="section-title">Get started</h2>
-        <div class="menu-box">
-            <div class="menu-item">
-                <div class="menu-icon">
-                    <img src="assets/images/sedan-car-front.png">
+        <div class="menu-box mySwipper">
+            <div class="swiper-wrapper">
+                <div class="menu-item swiper-slide">
+                    <div class="menu-icon">
+                        <img src="assets/images/sedan-car-front.png">
+                    </div>
+                    <div class="menu-footer">
+                        <p>Ride</p>
+                    </div>
                 </div>
-                <div class="menu-footer">
-                    <p>Ride</p>
+                <div class="menu-item swiper-slide">
+                    <div class="menu-icon">
+                        <img src="assets/images/card.png">
+                    </div>
+                    <div class="menu-footer">
+                        <p>Pay</p>
+                    </div>
                 </div>
-            </div>
-            <div class="menu-item">
-                <div class="menu-icon">
-                    <img src="assets/images/card.png">
+                <div class="menu-item swiper-slide">
+                    <div class="menu-icon">
+                        <img src="assets/images/salary.png">
+                    </div>
+                    <div class="menu-footer">
+                        <p>Send Funds</p>
+                    </div>
                 </div>
-                <div class="menu-footer">
-                    <p>Pay</p>
+                <div class="menu-item swiper-slide">
+                    <div class="menu-icon">
+                        <img src="assets/images/top-up.png">
+                    </div>
+                    <div class="menu-footer">
+                        <p>Top up</p>
+                    </div>
                 </div>
-            </div>
-            <div class="menu-item">
-                <div class="menu-icon">
-                    <img src="assets/images/salary.png">
-                </div>
-                <div class="menu-footer">
-                    <p>Send Funds</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <div class="menu-icon">
-                    <img src="assets/images/top-up.png">
-                </div>
-                <div class="menu-footer">
-                    <p>Top up</p>
-                </div>
-            </div>
+            </div> 
         </div>
     </section>
     <!--- Menu Ends-->
      <!--- Discover Starts-->
     <section class="discover">
         <h2 class="section-title">Get started</h2>
-        <div class="discover-box">
-            <div class="discover-item">
-                <div class="discover-icon">
+        <div class="discover-box swiper">
+            <div class="swiper-wrapper">
+                <div class="discover-item swiper-slide">
+                    <div class="discover-icon">
+                        
+                    </div>
+                    <div class="discover-footer">
+                        <p>Winkpoints, credit & rewards</p>
+                    </div>
+                </div>
+                <div class="discover-item swiper-slide">
+                    <div class="discover-icon">
                     
-                </div>
-                <div class="discover-footer">
-                    <p>Winkpoints, credit & rewards</p>
-                </div>
-            </div>
-            <div class="discover-item">
-                <div class="discover-icon">
-                  
-                </div>
-                <div class="discover-footer">
-                    <p>Discounts & Promotions</p>
+                    </div>
+                    <div class="discover-footer">
+                        <p>Discounts & Promotions</p>
+                    </div>
                 </div>
             </div>
-          
         </div>
     </section>
     <!--- Discover Ends-->
@@ -94,37 +98,39 @@
     <!--- Airtime Starts-->
     <section class="airtime">
         <h2 class="section-title">Quick Pay</h2>
-        <div class="airtime-box">
-            <div class="airtime-item">
-                <div class="airtime-icon">
-                    <img src="assets/images/mtn-new-logo.svg">
+        <div class="airtime-box airtimeSwiper">
+            <div class="swiper-wrapper">
+                <div class="airtime-item swiper-slide" style="background: #efbd3f;">
+                    <div class="airtime-icon">
+                        <img src="assets/images/mtn-new-logo.svg">
+                    </div>
+                    <div class="airtime-footer">
+                        <p>MTN</p>
+                    </div>
                 </div>
-                <div class="airtime-footer">
-                    <p>MTN</p>
+                <div class="airtime-item swiper-slide" style="background: #da3a26;">
+                    <div class="airtime-icon">
+                        <img src="assets/images/airtel.png">
+                    </div>
+                    <div class="airtime-footer">
+                        <p>Airtel</p>
+                    </div>
                 </div>
-            </div>
-            <div class="airtime-item">
-                <div class="airtime-icon">
-                    <img src="assets/images/airtel.png">
+                <div class="airtime-item swiper-slide" style="background: #56a847;">
+                    <div class="airtime-icon">
+                        <img src="assets/images/glo.png">
+                    </div>
+                    <div class="airtime-footer">
+                        <p>Glo</p>
+                    </div>
                 </div>
-                <div class="airtime-footer">
-                    <p>Airtel</p>
-                </div>
-            </div>
-            <div class="airtime-item">
-                <div class="airtime-icon">
-                    <img src="assets/images/glo.png">
-                </div>
-                <div class="airtime-footer">
-                    <p>Glo</p>
-                </div>
-            </div>
-            <div class="airtime-item">
-                <div class="airtime-icon">
-                    <img src="assets/images/9mobile.png">
-                </div>
-                <div class="airtime-footer">
-                    <p>9Mobile</p>
+                <div class="airtime-item swiper-slide" style="background: #2e6c55;">
+                    <div class="airtime-icon">
+                        <img src="assets/images/9mobile.png">
+                    </div>
+                    <div class="airtime-footer">
+                        <p>9Mobile</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -194,5 +200,38 @@
     <!-- End Links-->
 
     <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+       
+       const swiper1 = new Swiper('.mySwipper', {
+            // Optional parameters
+            direction: 'horizontal',
+            slidesPerView: "3",
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 9000,
+            },
+        });
+       let swiper2 = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            autoplay: {
+                delay: 5000,
+            },
+        });
+
+        const swiper3 = new Swiper('.airtimeSwiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            slidesPerView: "3",
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 3000,
+            },
+        });
+    </script>
 </body>
 </html>
