@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wynk</title>
+   
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+<body>
+    <main class="main-content">
+        <div class="container">
+            <h1>Verification</h1>
+            <p class="verification">Please enter the Verification code we sent to your phone</p>
+            <div class="userInput">
+                <input type="password" name="" id="ist" maxlength="1" onkeyup="clickEvent(this, 'sec')">
+                <input type="password" name="" id="sec" maxlength="1" onkeyup="clickEvent(this, 'third')">
+                <input type="password" name="" id="third" maxlength="1" onkeyup="clickEvent(this, 'fourth')">
+                <input type="password" name="" id="fourth"maxlength="1">
+            </div>
+            <p>Didn't receive a code? <a href="">Resend code</a></p>
+        </div>
+    </main>
+
+
+    <script type="text/javascript">
+        function clickEvent(first,last){
+            if(first.value.length){
+                document.getElementById(last).focus();
+            }
+        }
+    </script>
+</body>
+</html>
