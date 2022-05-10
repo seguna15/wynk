@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+/** General CSS */
+a{
+    text-decoration: none;
+}
+/** End General CSS */
+.hero{
+    margin-bottom: 0;
+}
+
+.main-content .background-one,.main-content .background-two{
+    height: 100vh;
+}
+
+.main-content .background-two{
+    background: #fafafa;
+}
+
+.background-two{
+    display: flex;
+    flex-direction: column;
+}
+
+.background-two .welcome{
+    margin-top: 20vh;
+    font-weight: 400;
+}
+
+.background-one img, .background-two img{
+    padding: 2rem 5rem 5rem;
+    align-self: center;
+    height: 300px;
+    width: 350px;
+}
+
+.background-one p, .background-two p{
+    margin-top: -4rem; 
+    align-self: center;
+}
+
+.butn-group{
+    display: flex;
+}
+
+.background-one p{
+    color: #fafafa;
+}
+
+.background-two p{
+    color: #211d8a;
+}
+
+
+
+.btn{
+    padding: 1rem 3rem;   
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    font-weight: 400;
+    border-radius: 5px;
+    outline: none;
+}
+
+/**Link Section  */
+
