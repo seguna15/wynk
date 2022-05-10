@@ -81,6 +81,11 @@ a{
     color: #fafafa;
     border: none;
 }
+.btn-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .btn-blue-trans{
     background: #fafafa;
