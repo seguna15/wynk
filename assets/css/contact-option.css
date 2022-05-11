@@ -81,6 +81,7 @@ body{
     display: flex;
     flex-direction: column;
     height: max-content;
+    margin-bottom: 3rem;
 }
 .card-header{
     background: var(--navy-blue);
