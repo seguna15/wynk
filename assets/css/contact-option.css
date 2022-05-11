@@ -42,9 +42,9 @@ body{
 .hero.contact-opt{
     min-height: 55vh;
 }
-.hero.enroute{
+/*.hero.enroute{
     min-height: 65vh;
-}
+}*/
 
 .hero button{
     position: absolute;
