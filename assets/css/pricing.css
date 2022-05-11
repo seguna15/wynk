@@ -143,9 +143,47 @@ body{
     padding: 1rem 3rem;
     border: none;
     outline: none;
-  
+    color: var(--deep-grey);
     border-radius: 5px;
 }
 
 /** End Location Option */
+
+/** Pricing Method */
+.methods{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 4rem;
+    font-size: 2rem;
+}
+
+.methods .method{
+    display: flex;
+    
+}
+
+.method div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.method div i{
+    margin-right: 2rem;
+}
+
+.method div .bxs-wallet{
+    color: var(--navy-blue);
+}
+
+
+.method div .bxs-check-circle{
+    margin-left: 2rem;
+    color: var(--navy-blue);
+}
+
+.method div .bx-money{
+    color: lightseagreen;
+}
 
