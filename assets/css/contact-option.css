@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+:root{
+    --white : #fafafa;
+    --orange: #f98611;
+    --secondary-orange: #eda664;
+    --navy-blue: #1f1e84;
+    --light-grey: #bebebe;
+    --deep-grey: #4f4f4f;
+    --gainsboro: #dcdcdc;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%; /* 16px * 65.5 = 10px = 1rem */
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--white);
+    font-family: 'Poppins', sans-serif;
+}
+
+/** General CSS */
+
+/** End General CSS */
+
+/** Start Hero Section */
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 50vh; 
+    background-image: url("../images/map-route.png");
+}
+
+.hero.contact-opt{
+    min-height: 55vh;
+}
+.hero.enroute{
+    min-height: 65vh;
+}
+
+.hero button{
+    position: absolute;
+    top: 3rem;
+    left:3rem;
+    font-size: 3rem;
+    padding: 1.5rem;
+}
+
+
+/** End Hero Section */
+
+/** Location Option */
+.notice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notice span{
+    font-size: 1.4rem;
+    text-align: center;
+    color: var(--deep-grey);
+}
+
+.location-option{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 45vh;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+}
+.card-header{
+    background: var(--navy-blue);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: var(--white);
+    text-align: center;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    font-size: 1.4rem;
+}
+
+.card-body{
+    background-color: var(--white);
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow i {
+    font-size: 5rem;
+    color: var(--light-grey);
+}
+
+.card-body .destination-form{
+   display: flex;
+   width: 80%;
+   justify-content: center;
+   align-items: center;
+   background: var(--gainsboro);
+   padding: 1.4rem;
+}
+.card-body .destination-form i{
+    font-size: 3rem;
+    color: var(--light-grey);
+}
+.card-body .destination-form input{
+    width: 80%;
+    height: 3rem;
+    outline: none;
+    border: none;
+    background: var(--gainsboro);
+    color: black;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.previous-loc{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.4rem;
+}
+
+.loc-item{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.loc-item .icon i{
+    font-size: 3rem;
+    margin-right: 1rem;
+    color: var(--light-grey);
+}
+.loc-details p{
+    font-size: 1.6rem;
+}
+
+.loc-details span{
+    font: .8rem;
+    color: var(--light-grey);
+}
+
+.arrival-time p{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    margin-top: 2rem;
+}
+
+.driver-details span{
+    font-size: 1.2rem;
+    color: var(--deep-grey);
+}
+
+.driver-details h3{
+    font-size: 2rem;
+}
+.driver-details p{
+    font-size: 1.6rem;
+}
+
+.driver-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.driver-image .bxs-user-circle{
+    font-size: 10rem;
+    color: deeppink;
+    align-content: center;
+}
+
+.driver-image span{
+    position: relative;
+    left: 2rem;
+    top: -3rem;
+    background: pink;
+    border-radius: 20px;
+    text-align: center;
+    color: deeppink;
+    font-size: 1.4rem;
+    width: 6rem;
+}
+
+.btn-blue{
+    background: var(--navy-blue);
+    color: var(--white);
+    outline: none;
+    border: none;
+    border-radius: .3rem;
+}
+
+.btn-big{
+    width: 80%;
+    padding: 2rem ;
+}
+/** Location Option */
+
+/** Link Section*/
+.section-links{
+    position: fixed;
+    bottom: 0;
+    background: var(--white);
+    width: 100%;
+    border: 1px var(--light-grey) solid;
+    height: max-content;
+    margin-top: 2rem;
+}
+
+.link-box{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.link-item{
+    display: flex;
+    flex-direction: column;
+    color: var(--deep-grey);
+    align-items: center;
+}
+
+.link-item .link-icon{
+    font-size: 1.8rem;
+}
+
+.link-item.active .link-icon{
+    color: var(--navy-blue);
+}
+
+.link-item p{
+    font-size: 1.2rem;
+    color: var(--navy-blue);
+}
+/**Link Section  */
+
