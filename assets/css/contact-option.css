@@ -218,6 +218,27 @@ body{
     width: 80%;
     padding: 2rem ;
 }
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cards .card:nth-child(1){
+    background: var(--orange);
+}
+
+.card-body .details{
+    display: flex;
+    flex-direction: column;
+}
+.card-body .details img{
+    width: 3rem;
+    height: 3rem;
+}
+.card{
+    display: flex;
+}
 /** Location Option */
 
 /** Link Section*/

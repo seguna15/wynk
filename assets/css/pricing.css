@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+:root{
+    --white : #fafafa;
+    --orange: #f98611;
+    --secondary-orange: #eda664;
+    --navy-blue: #1f1e84;
+    --light-grey: #bebebe;
+    --deep-grey: #4f4f4f;
+    --gainsboro: #dcdcdc;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%; /* 16px * 65.5 = 10px = 1rem */
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--white);
+    font-family: 'Poppins', sans-serif;
+}
+
+/** General CSS */
+
+/** End General CSS */
+
+/** Start Hero Section */
+.hero{
+    min-height: 50vh; 
+    background-image: url("../images/map-route.png");
+}
+
+.hero .search{
+    display: flex;
+    background: var(--white);
+    position: absolute;
+    top: 4rem;
+    left: 5%;
+    width: 90%;
+    height: 6rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
+
+.hero .search i{
+    color: var(--deep-grey);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.hero .search input {
+    width: 80%;
+    height: 4rem;
+    background: var(--gainsboro);
+    border: none;
+    outline: none;
+}
+
+
+
+/** End Hero Section */
+
+/** Location Option */
+.location-option{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow i {
+    font-size: 4rem;
+    color: var(--gainsboro);
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.cards .card:nth-child(1){
+    background: var(--navy-blue);
+    margin-right: 2rem;
+    border-radius: 1rem;
+} 
+
+.cards .card:nth-child(2){
+    background: var(--light-grey);
+    border-radius: 1rem;
+} 
+.cards .card .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem;
+    height: 250px;
+}
+
+.cards .card .card-body .car-details p{
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+.cards .card .card-body .car-details p span{
+    font-size: 1.1rem;
+}
+.cards .card:nth-child(1) .card-body{
+    background: var(--navy-blue);
+    color: var(--white);
+}
+.cards .card .card-footer{
+    text-align: center;
+
+}
+
+.cards .card:nth-child(1) .card-footer{
+    background: var(--orange);
+    padding: 1rem 2rem;
+} 
+
+.cards .card:nth-child(2) .card-footer{
+    background: var(--gainsboro);
+    padding: 1rem 2rem;
+} 
+
+
+.cards .card .card-body img{
+    height: 4rem;
+    width: 4rem;
+}
+
+.btn-white{
+    background: var(--white);
+    padding: 1rem 3rem;
+    border: none;
+    outline: none;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+/** End Location Option */
+
