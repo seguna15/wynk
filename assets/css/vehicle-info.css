@@ -54,7 +54,7 @@ main{
 
 .gallery .heading{
     display: flex;
-    gap: 7rem;
+    gap: 5rem;
     margin-bottom: 2rem;
 }
 
