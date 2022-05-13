@@ -50,11 +50,12 @@ main{
     flex-direction: column;
     width: 100%;
     margin: 2rem;
+    margin-left: 1rem;
 }
 
 .gallery .heading{
     display: flex;
-    gap: 3rem;
+   
     margin-bottom: 2rem;
 }
 
@@ -73,6 +74,7 @@ main{
     outline: none;
     color: var(--white);
     padding: .5rem 2rem;
+    margin-left: 1rem;
 }
 
 .gallery .images{
