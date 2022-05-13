@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+:root{
+    --navy-blue: #211f8a;
+    --purple-aqua: #c8daff;
+    --white: #fafafa;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -6,16 +12,18 @@
 }
 html{
     scroll-behavior: smooth;
+   
 }
 body{
-    display: flex;
-    flex-direction: column;
     width: 100%;
     min-height: 100vh;
     background-color: #fafafa;
     font-family: 'Poppins', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
 /** General CSS */
 .section-title{
     font-size: 1rem;
@@ -25,11 +33,92 @@ body{
 /** End General CSS */
 
 /** Start Hero Section */
+
+header{
+    height: auto;
+    width: 100%;
+    background: var(--navy-blue);
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+    display: none;
+}
+
+header .bx-x{
+    color: var(--purple-aqua);
+    text-align: right;
+    font-size: 2rem;
+    margin-top: .5rem;
+    align-items: center;
+}
+
+header .balance-card{
+    background: var(--purple-aqua);
+    margin: 2rem .5rem ;
+    border-radius: .5rem;
+    height: auto;
+    color: var(--white);
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem
+}
+
+.balance-card h3{
+    font-size: 1.6rem;
+}
+
+.balance-card p{
+    font-size: 1.4rem;
+}
+
+.balance-card i{
+    color: var(--navy-blue);
+    font-size: 3rem;
+}
+
+nav.navigation{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+    margin-left: .5rem;
+    color: var(--white);
+}
+
+.navigation .heading{
+    width: fit-content;
+    font-size: 1.6rem;
+    border-bottom: .15rem var(--white) solid;
+}
+
+.navigation ul{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.navigation ul li{
+    list-style-type: none;
+}
+
+.navigation ul li a {
+    color: var(--white);
+    cursor: pointer;
+    width: fit-content;
+}
+
+
+.navigation ul li a:hover{
+    background: var(--purple-aqua);
+    padding: .5rem 1rem;
+}
 .hero{
     display: flex;
     flex-direction: column;
 }
-
+.hero .bx-menu{
+    font-size: 2rem;
+}
 .main-content{
     display: grid;
     grid-template-columns: 2fr 1fr;
