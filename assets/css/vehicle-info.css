@@ -55,7 +55,8 @@ main{
 
 .gallery .heading{
     display: flex;
-   
+    flex-direction: column;
+    gap: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -72,6 +73,7 @@ main{
     background: var(--light-blue);
     border: none;
     outline: none;
+    width: 12rem;
     color: var(--white);
     padding: .5rem 2rem;
     margin-left: 1rem;
