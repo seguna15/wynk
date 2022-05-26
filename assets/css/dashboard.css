@@ -218,15 +218,12 @@ nav.navigation{
 /** Start Airtime Section */
 .airtime{
     padding: 1rem .5rem ;
-   overflow: hidden;
+    overflow: hidden;
 }
-
 
 .airtime-item{
-   margin-right: 10px;
-   
+  display: flex;
 }
-
 
 .airtime-item img{
    width: 124px;
@@ -238,7 +235,7 @@ nav.navigation{
     height: 124px;  
     margin-top: 7px;
     margin-left: 7px;
-    margin-right: 0px;
+ 
 }
 
 
