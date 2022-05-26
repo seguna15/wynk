@@ -37,11 +37,11 @@
             </ul>
         </nav>
     </header>
-    <main>
-       
+    <main class="main">
         <!--- section hero-->
         <section class="hero">
             <i class='bx bx-menu' id="open"></i>
+            
             <div class="main-content">
                 <div class="text">
                     <p>Hello Sophia</p>
@@ -199,15 +199,22 @@
         const open = document.getElementById('open')
         const close = document.getElementById('close')
         const header = document.getElementById('header');
+        const main = document.querySelector('.main');
+
 
         open.addEventListener( "click", () => {
             header.style.display = 'flex';
             open.style.display = 'none';
+            main.style.width = "30%";
+            document.body.style.display = 'flex';
+            
+        
         })
 
         close.addEventListener( "click", () => {
             header.style.display = 'none';
             open.style.display = 'block';
+             main.style.width = "100%";
         })
     </script>
       
