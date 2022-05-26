@@ -218,7 +218,7 @@ nav.navigation{
 /** Start Airtime Section */
 .airtime{
     padding: 1rem .5rem ;
-   overflow-y: hidden;
+   overflow: hidden;
 }
 
 
