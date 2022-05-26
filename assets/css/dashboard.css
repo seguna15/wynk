@@ -115,6 +115,10 @@ nav.navigation{
 .hero{
     display: flex;
     flex-direction: column;
+    height: 30vh;
+    background-image: url(/assets/images/lekki-new---day--1@1x.png);
+    background-position: center;
+    background-size: cover;
 }
 .hero .bx-menu{
     font-size: 2rem;
@@ -122,20 +126,18 @@ nav.navigation{
 .main-content{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    padding: 2rem;
+    padding: 1.2rem;
 }
 
-.hero .text{
-    padding-top: 20px;
-}
+
 .hero .text p {
     font-size: 1rem;
     color: #bebebe;
 }
 
 .hero .text h1{
-    font-size: 1.4rem;
-    font-weight: 400;
+    font-size: 26px;
+    font-weight: 500;
     color: #2b2b2b;
 }
 
@@ -156,7 +158,7 @@ nav.navigation{
     transform: rotateY(155deg);
 }
 
-.hero .divider{
+.divider{
     width: 80%;
     height: 2px;
     background: #d8d8d8;
@@ -179,43 +181,15 @@ nav.navigation{
 }
 
 .menu-item{
-    border: #d8d8d8 1px solid;
     border-radius: 10%;
     display: flex;
     flex-direction: column;
     height: max-content;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.menu-item:nth-child(odd){
-    background: #1f1e84;   
-}
-.menu-item:nth-child(even){
-    background: #4f4f4f;   
-}
-.menu-icon{
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    align-self: center;
-    width: 100%;
-    background: #fafafa;
-    display: flex;
-    justify-content: center;
-}
-.menu-icon img{
-   width: 50px;
-   height: 50px;
 }
 
-.menu-item .menu-footer{
-    width: 100%;
-    align-self: center;
-    color: #fafafa;
-    overflow: hidden;
-}
-
-.menu-item .menu-footer p{
-    font-size: .8rem;
-    text-align: center;
+.menu-item img{
+    width: 126px;
+    height: 143px;
 }
 /** End Menu Section */
 
@@ -224,51 +198,20 @@ nav.navigation{
     padding: 1rem .5rem ;
 }
 
-.discover-box{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: .5rem;
-}
-
 .discover-item{
-    border: #d8d8d8 1px solid;
-    background: #fafafa;
-    border-radius: 10px;
     display: flex;
-    flex-direction: column;
-    height: max-content;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.discover-icon{    
-    align-self: center;
-    width: 100%;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.discover-item.swiper-slide{
+    width: 236px;
 }
 
-.discover-item:nth-child(odd) .discover-icon{
-    background: #e53340;
+.discover-item img{
+    height: 180px;
+    width: 236px;
 }
 
-.discover-item:nth-child(even) .discover-icon{
-    background: #89d1e6;
-}
 
-.discover-item .discover-footer{
-    width: 100%;
-    align-self: center;
-    color: #2b2b2b;
-    overflow: hidden;
-}
-
-.discover-item .discover-footer p{
-    font-size: .8rem;
-    text-align: center;
-}
 /** End Discovery Section */
 
 
@@ -276,49 +219,30 @@ nav.navigation{
 .airtime{
     padding: 1rem .5rem ;
     width: 100%;
-    overflow: hidden;
+
 }
 
-.airtime-box{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: .5rem;
-}
 
 .airtime-item{
-    border: #d8d8d8 1px solid;
-    border-radius: 10%;
-    display: flex;
-    flex-direction: column;
-    height: max-content;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   margin-right: 10px;
+   
 }
 
-.airtime-icon{
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    align-self: center;
-    width: 100%;
-    background: #fafafa;
-    display: flex;
-    justify-content: center;
-}
-.airtime-icon img{
-   width: 50px;
-   height: 50px;
+
+.airtime-item img{
+   width: 124px;
+   height: 142px;
 }
 
-.airtime-item .airtime-footer{
-    width: 100%;
-    align-self: center;
-    color: #fafafa;
-    overflow: hidden;
+.flight img{
+    width: 108px;
+    height: 124px;  
+    margin-top: 7px;
+    margin-left: 7px;
+    margin-right: 0px;
 }
 
-.airtime-item .airtime-footer p{
-    font-size: .8rem;
-    text-align: center;
-}
+
 /** End Airtime Section */
 
 /** Start FAQ Section */
