@@ -113,6 +113,10 @@ nav.navigation{
     background: var(--purple-aqua);
     padding: .5rem 1rem;
 }
+
+.main{
+    background-color: #fafafa;
+}
 .hero{
     display: flex;
     flex-direction: column;
@@ -124,6 +128,17 @@ nav.navigation{
 }
 .hero .bx-menu{
     font-size: 2rem;
+}
+
+.hero .bx-chevron-left{
+    font-size: 2rem;
+    background: var(--navy-blue);
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: var(--white);
+    display: none;
 }
 .main-content{
     display: grid;

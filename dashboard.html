@@ -12,7 +12,7 @@
 </head>
 <body>
     <header id="header">
-        <i class='bx bx-x' id="close"></i>
+       
         <div class="balance-card">
             <h3>Balance</h3>
             <p>$2500</p>
@@ -41,7 +41,7 @@
         <!--- section hero-->
         <section class="hero">
             <i class='bx bx-menu' id="open"></i>
-            
+            <i class='bx bx-chevron-left' id="close"></i>
             <div class="main-content">
                 <div class="text">
                     <p>Hello Sophia</p>
@@ -205,16 +205,21 @@
         open.addEventListener( "click", () => {
             header.style.display = 'flex';
             open.style.display = 'none';
+            close.style.display = 'block';
             main.style.width = "30%";
+            main.style.marginTop = '50px';
             document.body.style.display = 'flex';
-            
+             document.body.style.backgroundColor = '#211f8a';
         
         })
 
         close.addEventListener( "click", () => {
             header.style.display = 'none';
+            close.style.display = 'none';
             open.style.display = 'block';
-             main.style.width = "100%";
+            main.style.width = "100%";
+            main.style.marginTop = 0;
+           
         })
     </script>
       
