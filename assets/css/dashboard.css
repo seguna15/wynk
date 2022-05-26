@@ -256,45 +256,12 @@ nav.navigation{
     grid-gap: .5rem;
 }
 
-.faq-item{
-    border: #d8d8d8 1px solid;
-    border-radius: 10%;
-    display: flex;
-    flex-direction: column;
-    height: max-content;
-}
-.faq-item:nth-child(1){
-    background: #1f1e84;   
-}
-.faq-item:nth-child(2){
-    background: #4f4f4f;   
+.faq-item img{
+  width: 91px;
+  height: 103px;
 }
 
-.faq-icon{
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    align-self: center;
-    width: 100%;
-    background: #fafafa;
-    display: flex;
-    justify-content: center;
-}
-.faq-icon img{
-   width: 50px;
-   height: 50px;
-}
 
-.faq-item .faq-footer{
-    width: 100%;
-    align-self: center;
-    color: #fafafa;
-    overflow: hidden;
-}
-
-.faq-item .faq-footer p{
-    font-size: .8rem;
-    text-align: center;
-}
 /** End FAQ Section */
 
 /** Link Section*/
